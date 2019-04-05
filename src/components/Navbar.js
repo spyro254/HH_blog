@@ -23,10 +23,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active"
+              navBarActiveClass: ""
             })
           : this.setState({
-              navBarActiveClass: ""
+              navBarActiveClass: "is-active"
             });
       }
     );
