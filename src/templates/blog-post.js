@@ -29,6 +29,7 @@ export const BlogPostTemplate = ({
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `40rem` }}>
+              <a href="https://api.instagram.com/v1/self/media/recent?access_token=47906738.a521fbf.c53234c4b08041b0ad98b793808aadd5"></a>
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
